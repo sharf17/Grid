@@ -1,0 +1,40 @@
+/* CSS for container class */
+.container {
+    height: 724px;
+    width: 724px;
+    border: 2px solid black;
+    padding: 10px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 1%;
+    margin: auto;
+    background-color: rgba(106, 200, 200);
+  }
+  
+  /* CSS for h3 */
+  h3 {
+    display: block;
+    text-align: center;
+  }
+  
+  /* CSS for wrapper class */
+  .wrapper {
+    display: flex; /* For displaying the multiple
+      components of wrapper in a stack  */
+    flex-direction: column; /* To display the Components as a coloumn  */
+  }
+  
+  .puzzle_box {
+    display: inline-flex; /*Display puzzle_box as an inline-level flex container */
+    width: 400px; /* adjust the width dynamically w.r.t the image size */
+    height: 400px; /* adjust the height dynamically w.r.t the image size */
+  }
+  
+  .orgimg_box {
+    display: inline-flex; /*Display puzzle_box as an inline-level flex container */
+  
+    max-width: 250px; /* adjust
